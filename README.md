@@ -3,13 +3,11 @@ Following a rather heartbreaking third place finish in the 150th Open, golfer Ro
 There is extensive research on how sports and activity improve mental health but far less on the converse. As someone who has had a varied career with many wins and years of dry spells, I chose to study golfer Rory McIroy. I used Natural Language Processing to understand mindset using sentiment analysis. I set up models to see if sentiment from post round transcripts is useful in understanding performance in major tournament from 2014 to 2022.
 
 Datasets
-○ ASAP Sports Website: This was used to get the post round transcripts for
-McIlroy and was manually copied into a .csv file with the Tournament name
-and date.
-○ Golf Stats Website: This was used to get round statistics such as score,
-ranking, finish.
-● Packages: pandas (data manipulation, mutation, merging), re (regular expressions to
-find interviewer names, splitting by delimiter, removing words in parentheses), statistics (mean), nltk (sentiment analysis scores), statsmodels (linear regression models), matplotlib (data visualizations)
+ASAP Sports Website: This was used to get the post round transcripts for McIlroy and was manually copied into a .csv file with the Tournament name and date.
+Golf Stats Website: This was used to get round statistics such as score, ranking, finish.
+
+Packages
+pandas (data manipulation, mutation, merging), re (regular expressions to find interviewer names, splitting by delimiter, removing words in parentheses), statistics (mean), nltk (sentiment analysis scores), statsmodels (linear regression models), matplotlib (data visualizations)
 
 Multiple regression was used to study the strength of relationship between negative, positive, and compound sentiment and the finish at the end of the tournament. 
 
